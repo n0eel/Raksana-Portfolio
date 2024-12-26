@@ -3,15 +3,6 @@ import React from 'react';
 import { Carousel } from 'antd';
 import Image from 'next/image';
 
-const contentStyle: React.CSSProperties = {
-  margin: 0,
-  height: '300px',
-  color: '#fff',
-  lineHeight: '300px',
-  textAlign: 'center',
-  background: '#364d79',
-};
-
 const CustomCarousel: React.FC = () => {
   const onChange = (currentSlide: number) => {
     console.log(currentSlide);

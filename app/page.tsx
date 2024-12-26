@@ -23,9 +23,9 @@ export default function Home() {
             <p className="text-white text-[21px]">Hi I am</p>
             <h4 className="text-[32px] text-[#FD6F00] font-semibold">Raksana Avazkhanova</h4>
             <h1 className="text-white text-[90px] font-bold">MODEL</h1>
-            <p className="text-[21px] text-white mb-[10px]"><span className="text-[#FD6F00]">ENG</span> / I graduated "Art Models" and I have been working in this sphere for 7 years.</p>
-            <p className="text-[21px] text-white mb-[10px]"><span className="text-[#FD6F00]">RU</span> / Я училась в агентстве «Art Models» и работаю в этой сфере 7 лет.</p>
-            <p className="text-[21px] text-white mb-[10px]"><span className="text-[#FD6F00]">UZ</span> / Men "Art Models" agentligida o'qiganman va ushbu sohada 7 yildan beri ishlab kelaman.</p>
+            <div className="text-[21px] text-white mb-[10px]"><span className="text-[#FD6F00]">ENG</span> / I graduated "Art Models" and I have been working in this sphere for 7 years.</div>
+            <div className="text-[21px] text-white mb-[10px]"><span className="text-[#FD6F00]">RU</span> / Я училась в агентстве «Art Models» и работаю в этой сфере 7 лет.</div>
+            <div className="text-[21px] text-white mb-[10px]"><span className="text-[#FD6F00]">UZ</span> / Men "Art Models" agentligida o'qiganman va ushbu sohada 7 yildan beri ishlab kelaman.</div>
           </div>
           <div className="flex flex-col items-center">
             <Image className="rounded-full w-[420px] h-[550px]" src={"/images/Hero.jpg"} alt="Hero Image" width={485} height={485}/>

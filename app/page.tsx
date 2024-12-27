@@ -18,50 +18,54 @@ export default function Home() {
             </div>
           </ul>
         </div>
-        <div className="mt-[120px] flex justify-between"> 
+        <div className="mt-[120px] flex justify-between">
           <div className="w-[800px] mt-[100px]">
             <p className="text-white text-[21px]">Hi I am</p>
             <h4 className="text-[32px] text-[#FD6F00] font-semibold">Raksana Avazkhanova</h4>
             <h1 className="text-white text-[90px] font-bold">MODEL</h1>
             <div className="text-[21px] text-white mb-[10px]">
               <span className="text-[#FD6F00]">ENG</span>
-               / I graduated Art Models and I have been working in this sphere for 7 years.</div>
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              / I graduated Art Models and I've been working in this sphere for 7 years.
+            </div>
             <div className="text-[21px] text-white mb-[10px]">
               <span className="text-[#FD6F00]">RU</span>
-               / Я училась в агентстве Art Models и работаю в этой сфере 7 лет.</div>
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              / Я училась в агентстве Art Models и работаю в этой сфере 7 лет.</div>
             <div className="text-[21px] text-white mb-[10px]">
               <span className="text-[#FD6F00]">UZ</span>
-               / Men Art Models agentligida o'qiganman va ushbu sohada 7 yildan beri ishlab kelaman.</div>
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              / Men Art Models agentligida o'qiganman va ushbu sohada 7 yildan beri ishlab kelaman.</div>
           </div>
           <div className="flex flex-col items-center">
-            <Image className="rounded-full w-[420px] h-[550px]" src={"/images/Hero.jpg"} alt="Hero Image" width={485} height={485}/>
+            <Image className="rounded-full w-[420px] h-[550px]" src={"/images/Hero.jpg"} alt="Hero Image" width={485} height={485} />
             <div className="pt-[20px] flex items-center space-x-[20px]">
               <Link className="hover:scale-[1.1] duration-300 cursor-pointer" href={"https://www.instagram.com/raksana_avazhanova/"}>
-                <InstagramIcon/>
+                <InstagramIcon />
               </Link>
               <Link className="hover:scale-[1.1] duration-300 cursor-pointer" href={"https://www.tiktok.com/@_raksana_a?_t=ZP-8sY0JmP0l0J&_r=1"}>
-                <TiktokIcon/>
+                <TiktokIcon />
               </Link>
             </div>
           </div>
         </div>
         <div className="flex items-center mt-[70px] justify-between">
           <div>
-            <Image className="rounded-full w-[420px] h-[550px]" src={"/images/Hero-2.jpg"} alt="Hero Image" width={485} height={485}/>
+            <Image className="rounded-full w-[420px] h-[550px]" src={"/images/Hero-2.jpg"} alt="Hero Image" width={485} height={485} />
           </div>
           <div className="space-y-[30px] w-[500px]">
             <strong className="text-[60px] text-white">About Me</strong>
             <p></p>
-              <HeightSlider/>
-              <WeightSlider/>
+            <HeightSlider />
+            <WeightSlider />
           </div>
         </div>
       </section>
       <section>
-          <div>
-            <h1 className="text-white font-bold text-[65px] text-center">Experience</h1>
-            <CustomCarousel/>
-          </div>
+        <div>
+          <h1 className="text-white font-bold text-[65px] text-center">Experience</h1>
+          <CustomCarousel />
+        </div>
       </section>
     </div>
   );

@@ -1,6 +1,6 @@
 import CustomCarousel from "@/components/CustomCarousel"; 
 import HeightSlider from "@/components/HeightSlider";
-import Test from "@/components/Test";
+
 import WeightSlider from "@/components/WeightSlider";
 import { InstagramIcon, TiktokIcon } from "@/public/icons/icons";
 import Image from "next/image";
